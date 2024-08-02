@@ -50,6 +50,11 @@
     justify-content: space-evenly;
 
 }
+.bar{
+    display: none;
+    width: 100%;
+}
+
 
 
 .nav-item{
@@ -112,7 +117,7 @@
 }
 .images-02 {
     position: relative;
-    width:500px;
+    width:31.25rem;
     margin-right: 10rem;
 }
 .images-02 img{
@@ -149,7 +154,7 @@
 .btn-secondary{
     background-color: black;
     color:rgb(255,255,255);
-    border:none;
+    border:1px solid white;
     border-radius: 42px;
     width:10.625rem;
     height:54px;
@@ -257,6 +262,66 @@ letter-spacing: 1px;
 .badge-02:hover{
     background:rgba(255, 255, 255, 0.141) ;
 }
+
+
+/* responsive layout first page */
+
+
+@media screen and (max-width:1044px){
+    .brand{
+        margin-left: 3rem;
+
+    }
+} 
+
+@media screen and (max-width:1044px) {
+
+    .banner{
+        flex-direction: column;
+        gap:5rem;
+    }
+    .images-02 {
+        position: relative;
+        width:450px;
+        border: none;
+        margin-left: 7rem;
+    }
+    .images-02 img{
+        width: 60%;
+    }
+    .bg-color{
+        background: Linear-gradient( 10000deg, rgb(8, 8, 10), rgba(100,100,100,13) 500%);
+       
+    }
+
+    
+
+
+    
+}
+@media screen and (max-width:640px){
+    .nav-items{
+        display: none;
+    }
+    .brand{
+        margin-left:1.7rem;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bar{
+        display: block;
+        color: white;
+        margin-right: 3rem;
+        margin-left: 24rem;
+        
+        
+    }
+   
+}
+
+
 
 
 
