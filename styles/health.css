@@ -408,6 +408,99 @@ letter-spacing: 1px;
    
 }
 
+/* bmi-section */
+
+.bmi{
+    margin-top: 80px;
+}
+.bmi-banner{
+    margin-top: 85px;
+}
+
+.bmi-content{
+    text-align: center;
+}
+.bmi-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    
+}
+.bmi-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    
+}
+
+.bmi-banner{
+    background: rgb(34,34,34);
+}
+.bmi-chart-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    /* margin-top: 40px; */
+
+}
+.table{
+    margin-top: 35px;
+    
+}
+table,th,td{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+thead th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+tbody td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.bmi-cal-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+.bmi-cal-desc{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+
+}
+
+form input,form select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding:12px 20px;
+}
+form select{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
 /* team-section */
 
 .team-content{
