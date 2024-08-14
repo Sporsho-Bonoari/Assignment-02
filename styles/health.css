@@ -76,6 +76,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 1.75rem;
+    
 }
 
 /* background-color-for-first-page */
@@ -197,11 +198,11 @@
 
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    width: 193px;
-    height: 98px;
+    width: 165px;
+    height: 90px;
     position: absolute;
-    top:70px;
-    left:180px;
+    top:110px;
+    left:230px;
     cursor: pointer;
 }
 .badge-01-videos{
@@ -236,10 +237,10 @@ letter-spacing: 1px;
 
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    width: 193px;
-    height: 98px;
+    width: 165px;
+    height: 90px;
     position: absolute;
-    left:-120px;
+    left:-132px;
     bottom:45px;
     cursor: pointer;
     justify-content: center;
@@ -543,7 +544,7 @@ form input[type="text"]{
 }
 .arrow i{
     color: rgb(255, 255, 255);
-    width: 2.5rem;
+    /* width: 2.5rem; */
     height: 2.5rem;
     cursor: pointer;
 }
@@ -753,16 +754,19 @@ form input[type="text"]{
         margin-left: 7rem;
     }
     .images-02 img{
-        width: 60%;
+        width: 50%;
+        margin-left: -0.5rem;
     }
     /* .bg-color{
         background: Linear-gradient( 10000deg, rgb(8, 8, 10), rgba(100,100,100,13) 500%);
        
     } */
-    .habit-content{
-        margin-top: 28rem;
+    /* .habit-content{
+        margin-top: 36rem;
         
-    }
+    } */
+
+   
 
     
 
@@ -784,26 +788,80 @@ form input[type="text"]{
         display: block;
         color: white;
         margin-right: 3rem;
-        margin-left: 24rem;
+        margin-left: 14rem;
         cursor: pointer;
         
         
     }
+    
+    .badge-01{
+            left:127px;
+    }
+    
 
     .habits{
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .habit-content{
-        margin-top: 28rem;
+        margin-top: 36rem;
         
     }
     .card-container{
-        margin-left: 10.625rem;
+        /* margin-left: 10.625rem; */
         flex-direction: column;
     }
     
    
+}
+/* responsive layout bmi section */
+@media screen and (max-width:640px){
+    .bmi-chart-title{
+        text-align: start;
+        padding-left: 1rem;
+    }
+    .table{
+        margin-left: 1rem;
+    }
+    .bmi-banner{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 2rem;
+    }
+    .bmi-title{
+        margin-left: -3rem;
+    }
+    .bmi-cal-title{
+        padding-left: 1rem;
+    }
+    .bmi-desc{
+        margin-top: 1.75rem;
+        margin-left: -1.5rem;
+    }
+    .bmi-cal-desc {
+        margin-left: 1rem;
+    }
+    .form-row-1{
+        display: flex;
+        padding:4px
+    }
+    .form-row-2{
+        padding: 4px;
+    }
+    .form-row-2 .select{
+        width: 202.4px;
+        margin-left: -4px;
+        
+    }
+    .form-row-3 .select2{
+        width: 95%;
+        margin-left: 5px;
+        
+    }
+    .cal-btn{
+        margin-left: 1rem;
+    }
+    
+
 }
 
 /* responsive-layout-run-section-mobile*/
@@ -815,7 +873,7 @@ form input[type="text"]{
         gap:0px;
         /* margin-left: 70px;
         width: 100%; */
-        /* margin-left: 0px;
+        /* margin-left: 6rem; */
         width: 90%; */
     }
     .run-content{
@@ -840,13 +898,23 @@ form input[type="text"]{
             grid-template-columns: repeat(1,1fr);
         }
         .team-card{
-            margin-left: 5.5rem;
+            /* margin-left: 5.5rem; */
+            width: 90%;
+            margin-left: 1rem;
         }
 
 
 
 
     }
+     /* responsive-layout-explore-section-mobile*/
+     @media screen and (max-width:640px){
+        .explore-card-container{
+            grid-template-columns: repeat(1,1fr);
+        }
+     }
+
+
 
 
      /* responsive-layout-footer-section-mobile*/
@@ -864,8 +932,9 @@ form input[type="text"]{
      }
 
      .line{
-        margin-left: 2.3rem;
+        margin-left: 1.5rem;
      }
+     
 
 
 
