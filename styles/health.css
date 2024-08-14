@@ -338,12 +338,6 @@ letter-spacing: 1px;
 
 /* run-section */
 
-/* .run-content{
-    width: 47.6875rem;
-    height: 18.125rem;
-} */
-
-
 .run{
     gap:11rem;
     background: rgb(34,34,34);
@@ -544,7 +538,6 @@ form input[type="text"]{
 }
 .arrow i{
     color: rgb(255, 255, 255);
-    /* width: 2.5rem; */
     height: 2.5rem;
     cursor: pointer;
 }
@@ -757,20 +750,6 @@ form input[type="text"]{
         width: 50%;
         margin-left: -0.5rem;
     }
-    /* .bg-color{
-        background: Linear-gradient( 10000deg, rgb(8, 8, 10), rgba(100,100,100,13) 500%);
-       
-    } */
-    /* .habit-content{
-        margin-top: 36rem;
-        
-    } */
-
-   
-
-    
-
-
     
 }
 @media screen and (max-width:640px){
@@ -798,17 +777,12 @@ form input[type="text"]{
             left:127px;
     }
     
-
-    .habits{
-        /* margin-left: 50px; */
-    }
-
     .habit-content{
         margin-top: 36rem;
         
     }
     .card-container{
-        /* margin-left: 10.625rem; */
+       
         flex-direction: column;
     }
     
@@ -871,10 +845,7 @@ form input[type="text"]{
     .run{
         flex-direction: column;
         gap:0px;
-        /* margin-left: 70px;
-        width: 100%; */
-        /* margin-left: 6rem; */
-        width: 90%; */
+        width: 90%; 
     }
     .run-content{
         margin-right: 2.5rem;
@@ -898,7 +869,6 @@ form input[type="text"]{
             grid-template-columns: repeat(1,1fr);
         }
         .team-card{
-            /* margin-left: 5.5rem; */
             width: 90%;
             margin-left: 1rem;
         }
